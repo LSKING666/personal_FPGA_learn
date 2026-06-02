@@ -90,6 +90,6 @@ module HC_SR04(
             endcase
         
     assign distance = (echo_cnt_reg * 20) /1000 / 58;
-
+    //
 
 endmodule
